@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from util import load_data, preprocess_data, get_medicine_info, set_background
 from model import train_model, find_medicine
-import keyboard
+
 from PIL import Image
 import base64
 
